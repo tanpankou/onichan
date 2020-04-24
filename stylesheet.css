@@ -1,0 +1,188 @@
+.phone{display:none;}
+body{box-sizing:border-box;}
+
+.top-wrapper{height:440px;
+  background-image:url("../544d7053-107d-430d-aad6-104563bf67fe.jpg");
+  background-size:cover;
+  background-position:0ex;
+  text-align:center;
+}
+.content{width:1200px;
+  height:440px;
+  margin:0 auto;
+}
+.content-hover:hover{background-color:rgba(73, 71, 71, 0.568);
+}
+.wiki-wrapper{padding-top:30px;
+}
+.wiki-wrapper h2{color:white;
+  font-size:40px;
+}
+.wiki-wrapper p{color:white;
+  font-size:20px;
+  line-height:10px;
+}
+
+.btn-wrapper{width:50%;
+  margin:0 auto;
+}
+.btn-wrapper{color:white;
+}
+.logo{width:30px;
+  height:30px;
+  position:absolute;
+  top:75px;
+  left:30px
+}
+.btn-left{float:left;
+  width:250px;
+  background-color:rgba(255,255,255,0.4);
+  padding:10px 10px;
+  border-radius:20px;
+  position:relative;
+}
+.btn-right{float:right;
+  width:250px;
+  background-color:rgba(255,255,255,0.4);
+  padding:10px 10px;
+  border-radius:20px;
+  position:relative;
+}
+.apex{background-color:rgba(255, 68, 0, 0.836);
+}
+.youtube{background-color:rgba(255, 0, 0, 0.692);;
+}
+.btn{display:inline-block;
+  color:rgba(255, 255, 255, 0.795);
+  font-size:25px;
+  border-radius:18px;
+  padding:10px 10px 10px 30px;
+  display:block;
+  line-height:30px;
+}
+/*ここまでがtop-wrapperだが効率がとても悪いのでやり方を考えなくてはシンプルさが大事*/
+
+
+.introduse-wrapper{height:500px;
+  background-color:rgba(128, 128, 128, 0.432);
+  text-align:center;
+}
+.content2{margin:0 auto;
+width:90%;
+}
+.introduse{float:left;
+  width:50%;
+}
+.introduse h1{font-size:50px;
+  color:rgba(14, 13, 13, 0.8);
+}
+.icon{width:50%;
+  float:left;
+}
+.introduse h2{font-size:35px;
+}
+.onilogo{display:inline-block;
+  width:230px;
+  height:230px;
+}
+
+.jump{width:50%;
+  float:right;
+  text-align:center;
+}
+.btn2{display:inline-block;
+  color:white;
+  padding:10px 20px;
+  border-radius:15px;
+  width:55%;
+}
+.youtube2{background-color:rgb(255, 0, 0);
+  margin-bottom:20px;
+}
+.twitter{background-color:cornflowerblue;
+}
+.fab{padding-right:15px;
+  font-size:20px;
+}
+
+.movie-wrapper{width:50%;
+  height:460px;
+  text-align:center;
+  padding-top:40px;
+  float:right;
+}
+.txt-option{color:red;
+}
+.movie-wrapper h3{font-size:25px;
+  padding-top:5px;
+  margin:0;
+}
+
+
+/*ここからがcomment-wrapper*/
+.comment-wrapper{text-align:center;
+  background-color:rgba(128, 128, 128, 0.2);
+  height:1100px;
+}
+.comment{margin:0 auto;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:rgba(51, 50, 50, 0.7);
+  border-bottom:2px solid rgba(128, 128, 128, 0.3);
+}
+.comment h1{font-size:45px;
+  padding-bottom:30px;
+}
+.comment p{font-size:25px;
+  letter-spacing:2px;
+}
+
+.emblem{margin:0 auto;
+}
+.emblem h2{font-size:35px;
+  padding-bottom:30px;
+  color:rgba(51, 50, 50, 0.76);
+  align-self:flex-start;
+}
+.position{display:flex;
+}
+.icon img{width:150px;
+  height:150px;
+}
+.icon{align-items:flex-end;
+  justify-content:space-between;
+}
+.txt1{font-size:20px;
+  margin-top:0;
+  padding-top:0;
+  color:red;
+}
+.txt2{color:gray;
+  font-size:15px;
+}
+
+
+/*ここからがfooter*/
+footer{
+  height:150px;
+  background-color:rgba(241, 197, 77, 0.404);
+}
+footer p{padding:30px 0 0 0;
+  opacity:0.8;
+  font-size:20px;
+  color:gray;
+}
+.info{float:left;}
+.info h3{opacity:0.8;
+  color:gray;
+}
+.creater{float:right;
+  text-align:center;
+}
+.creater a{display:inline-block;
+  font-size:15px
+}
+.slash{border-right:1px solid rgba(128, 128, 128, 0.452);
+  padding-right:15px;
+  margin-right:10px;
+}
